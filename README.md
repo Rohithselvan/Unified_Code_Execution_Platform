@@ -77,7 +77,7 @@ We welcome contributions! Follow these steps:
 
 ## 📞 Contact
 - **Author:** S.Rohith
-- **GitHub:** https://github.com/Rohithselvan
+- **GitHub:** [Rohithselvan](https://github.com/Rohithselvan)
 - **Email:** rohithselvan10@gmail.com
 
 ## ⭐ Support
