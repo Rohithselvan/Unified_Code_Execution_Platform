@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Code Execution Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="theme.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.css">
+    <link rel="icon" href="assets/favicon.webp">
+</head>
+<body>
+    <header>
+        <img src="assets/logo.webp" alt="Logo" class="logo">
+        <h1>Unified Code Execution Platform</h1>
+        <button id="theme-toggle">🌗 Toggle Theme</button>
+    </header>
+
+    <div class="container">
+        <div class="compiler-section">
+            <label for="lang">Choose Language:</label>
+            <select id="lang">
+                <option value="50">C</option>
+                <option value="54">C++</option>
+                <option value="62">Java</option>
+                <option value="71">Python</option>
+                <option value="72">Ruby</option>
+            </select>
+            <br>
+            <br>
+            <label>Write Your Code:</label><br><br>
+            <textarea id="code-editor"></textarea>
+<br>
+            <label for="input">Input:</label><br><br>
+            <textarea id="input"></textarea>
+            
+            <button class="center-btn" id="run">▶️ Run</button>
+        </div>
+
+        <div class="output-section" id="output-container" style="display: none;">
+            <h4>Output:</h4>
+            <textarea readonly id="output"></textarea>
+        </div>
+    </div>
+
+    <script src="../src/script.js"></script>
+</body>
+</html>
